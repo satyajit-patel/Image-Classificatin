@@ -6,7 +6,10 @@ require("dotenv").config();
 const API_URL = process.env.API_URL;
 const API_KEY = process.env.API_KEY;
 const PORT = process.env.PORT;
-const fs = require("fs");
+
+console.log(API_KEY);
+console.log(API_URL);
+console.log(PORT);
 
 const app = express();
 
